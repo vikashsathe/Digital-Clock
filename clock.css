@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("Images/background.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+img {
+    opacity: 50%;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    box-shadow:     rgb(102, 68, 197) 0px 21px 30px -10px;
+    animation: vik 15s infinite
+
+}
+
+ @keyframes vik{
+    from{
+        top: 20px;
+        background-color: #5c8a8a;
+    }
+    to{
+        top: 20px;
+        background-color: #669999;
+    }
+} 
+h2{
+    top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(236, 225, 225);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 37px;
+}
+
+ 
+.clock{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.clock div{
+    position: relative;
+    margin: 5px;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: #33bbff;
+    opacity: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: #0077b3;
+    opacity: 80%;
+}
+
+.clock #ampm{
+    bottom: 0px;
+    top: 25px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+}
