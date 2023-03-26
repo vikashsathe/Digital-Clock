@@ -1,2 +1,2 @@
 # Digital-Clock
-This is my first project of HTML CSS AND JS
+This is My First Project of Digital Clock By Using HTML CSS AND JS
